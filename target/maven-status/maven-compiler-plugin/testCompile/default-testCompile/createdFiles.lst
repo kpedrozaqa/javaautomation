@@ -1,0 +1,4 @@
+steps/LoginSteps.class
+variables/configProperties.class
+pages/LoginPage.class
+javaautomation/RunCucumberTest.class

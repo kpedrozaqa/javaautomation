@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Timeout;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -46,6 +47,11 @@ public class LoginSteps {
 	public void the_sign_button_is_displayed() {
 		LoginPage loginPage = new LoginPage();
 		loginPage.signInButtonIsShown(driver);
+	}
+	
+	@After
+	public void tearDown() {
+		driver.quit();
 	}
 
 }

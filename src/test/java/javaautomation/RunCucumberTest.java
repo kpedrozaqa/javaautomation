@@ -9,8 +9,6 @@ import org.junit.platform.suite.api.Suite;
 
 import static io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
 
-import java.util.concurrent.TimeUnit;
-
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("javaautomation")
