@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: javaautomation.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.418 s - in javaautomation.RunCucumberTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.274 s - in javaautomation.RunCucumberTest
